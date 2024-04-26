@@ -1,0 +1,19 @@
+@media (min-width: 640px) {
+    .member {
+        /*width: calc(0% - 2rem);*/
+    }
+}
+
+.member {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+
+.members-container {
+    max-height: calc(70vh - 100px); 
+    overflow-y: auto; 
+}

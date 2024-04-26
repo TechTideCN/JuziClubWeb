@@ -1,0 +1,16 @@
+    #notification {
+        position: fixed;
+        top: 20px; /* 放置于顶部 */
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white; /* 底色设为白色 */
+        color: #3e7ac5;; /* 字体颜色调整 */
+        padding: 20px;
+        border-radius: 50px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        display: none; /* 默认不显示 */
+        opacity: 0; /* 开始透明度为0 */
+        transition: opacity 2s ease-in-out; /* 透明度变化的过渡效果 */
+    }

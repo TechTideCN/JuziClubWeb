@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuziClub</title>
+    <link href="https://join.juzi.club/favicon.ico" rel="icon">
+	<link href="https://join.juzi.club/favicon.ico" rel="apple-touch-icon">
+	<meta name="keywords" content="Hypixel guilds，Guild，Chinese Guild，JuziClub，Juzi_CN" />
+	<meta name="description" content="JuziClub A Hypixel Guild" />
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" /> 
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/guilds.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <!--<link rel="stylesheet" href="./css/mouse.css">-->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.js"></script>
+</head>
+<body>
+    <div id="home" class="main full-height">
+        <h1 id="clubName">JuziClub</h1>
+        <h2 id="guildName" style="color: white; animation: fadeInOut 4s infinite;">A Hypixel Guild</h2>
+    </div>
+
+    <div class="main unfull-height">
+        <h2 style="color: black">INFO</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>GuildLVL</h3>
+                <p>MORE THAN 50</p>
+                <p>You can get more exp and coins</p>
+            </div>
+            <div class="card">
+                <h3>GuildCreation</h3>
+                <p>The guild was created on 2022/8/9</p>
+                <p>The old Chinese guild is not afraid to run away</p>
+            </div>
+            <div class="card">
+                <h3>ManageOpenness</h3>
+                <p>Competent administrators</p>
+                <p>There is no need to worry about theocracy</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main unfull-height">
+        <h2 style="color: black">Oldbigs</h2>
+        <div class="card-container">
+            <div class="card">
+                <div class="image-container">
+                    <img src="./img/juzi_cn.png" alt="Member 1">
+                </div>
+                <h3><a href="https://juz1.cn" target="_blank">Juzi_CN</a></h3>
+                <p>GM</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="./img/zossil.png" alt="Member 2">
+                </div>
+                <h3><a href="https://zossil.xyz" target="_blank">Zossil</a></h3>
+                <p>Oldest Admin</p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="./img/7yue.png" alt="Member 3">
+                </div>
+                <h3>7Yue</h3>
+                <p>CO-GM</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main unfull-height">
+        <h2 style="color: black">PROJECT</h2>
+        <div class="card-container">
+            <div class="card">
+                <div class="image-container">
+                    <img src="./img/ip.png" alt="Project 1">
+                </div>
+                <h3>Hypixel BoostIP</h3>
+                <p>Powered By<a href="https://juz1.cn" target="_blank">Juzi</a>&<a href="https://liteboost.cn" target="_blank">Lite</a></p>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="./img/mcci.png" alt="Project 2">
+                </div>
+                <h3>MCCI BoostIP</h3>
+                <p>Powered By<a href="https://juz1.cn" target="_blank">Juzi</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="main unfull-height">
+        <h2 style="color: black">Contact</h2>
+        <div class="card">
+            <h3>EMAIL</h3>
+            <p><a href="mailto:3287936006@qq.com">3287936006@qq.com</a></p>
+        </div>
+        <div class="card">
+            <h3>QQ Group</h3>
+            <p><a href="https://qm.qq.com/q/ay0XIOMa9a" target="_blank">884588499</a></p>
+        </div>
+        <div class="card">
+            <h3>Application Website</h3>
+            <p><a href="https://join.juzi.club" target="_blank">join.juzi.club</a></p>
+        </div>
+        <div class="card">
+            <h3>Guild Members</h3>
+            <p><span id="refresh" > Refresh data </span></p>
+            <div id="members" class="container mx-auto p-5 h-screen overflow-auto members-container"></div>
+        </div>
+        <div class="card">
+            <h3>Guild special invitation</h3>
+            <div id="sponsor-members" class="container mx-auto p-5 h-screen overflow-auto members-container"></div>
+        </div>
+        <div class="card">
+            <h3>Guild Sponsor</h3>
+            <p>You are welcome to <a href="/sponsor" target="_blank">sponsorship</a></p>
+            <div id="sponsors" class="container mx-auto p-5 h-screen overflow-auto members-container"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2023-2024<a href="https://juz1.cn" target="_blank">Juzi</a> Made With ♥</p>
+        <p><a href="https://juzi.club/zh_cn/">Chinese</a> | <a href="https://juzi.club/">English</a></p>
+        <p><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>
+        <small><p>This website support IPV6</p></small>
+    </footer>
+    <div id="notification">建议您的语言 <a href="https://juzi.club/zh_cn/" style="color: #bce3fb;">中文</a></div>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!--<script src="./js/mouse.js"></script>-->
+    <script src="./js/sponsor.js"></script>
+    <script src="./js/sponsor2.js"></script>
+    <script src="./js/guilds.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/copyright.js"></script>
+    <script src="./js/members.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/baidutj.js"></script>
+    <script src="./js/changelog.js"></script>
+    <script>
+        document.getElementById('refresh').addEventListener('click', function() {
+            window.location.reload(true);
+        });
+    </script>
+</body>
+</html>
