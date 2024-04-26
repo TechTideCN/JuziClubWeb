@@ -1,2 +1,2 @@
 # JuziClubWeb
-https://juzi.club
+Made By HTML CSS AND JS
